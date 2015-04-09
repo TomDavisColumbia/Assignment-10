@@ -1,6 +1,7 @@
 h1 {
-    color: grayc; // This is where you can control the header of your page //
- 	highLight
+    color: gray; // This is where you can control the header of your page // 
+    <!--I chose to make my headline gray because that along with blue seem to be a theme on the Daily News website.--!>
+  	!-- I chose to use aspects of the Daily Post because the colors and style are very clean and organized --!
     margin-left: 1px;
 }
 
