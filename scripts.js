@@ -19,7 +19,7 @@ for (var i=0; i<dailyNews.length; i++) {
           if ($quoteContainer.hasClass("expanded")) {   //quoteContainer has class .expanded (you can see content), so remove content
               $quoteContainer.removeClass("expanded"); 
          } else { //quoteContainer does not have class expanded (you can't see content), so show content!
-             $quoteContainer.addClass("expanded");
+             $quoteContainer.addClass("expanded"); <!--Decided to use the same functionality of hiding and dropping more information --!>
              
          }
     }      
