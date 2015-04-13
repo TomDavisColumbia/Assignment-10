@@ -1,38 +1,24 @@
-h1 {
-    color: gray; // This is where you can control the header of your page // 
-    <!--I chose to make my headline gray because that along with blue seem to be a theme on the Daily News website.--!>
-  	!-- I chose to use aspects of the Daily Post because the colors and style are very clean and organized --!
-    margin-left: 1px;
+.headline {
+	font-size:30px;
+	font-weight:bold;
+	text-align:center;
 }
-
-
-.readMore{
-	 color: red;
-	 cursor: pointer;
-}
-.moreInfo {
-	display: none;	
-}
-
-.expanded .moreInfo {
-	display: block;
-}
-
-element.style {
-}
-
-body {
-  overflow-x: auto;
-  overflow-y: scroll;
-}
-html, body {
-  height: 200%;
-}
-body {
-  /* line-height: 1; */
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-html, body {
+.moreInfo{
+	font-family:Arial,sans-serif;
+	font-size:14px;
+	color:blue;
+	text-align:center;
 	
+}
+.readMore{
+	color:blue;
+	font-weight:bold;
+	cursor:pointer;
+}
+.moreInfo{
+	display: none;
+}
+.expanded .moreInfo{
+	display:block;
+
 }
